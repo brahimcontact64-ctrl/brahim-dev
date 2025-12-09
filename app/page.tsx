@@ -74,7 +74,7 @@ const themeCategories = [
     themes: [
       {
         id: 'kids-1',
-        url: 'https://brahim-theme-kids3.vercel.app/fr/home',
+        url: 'https://brahim-theme-kids3.vercel.app/',
         titleFr: 'Kids Paradise',
         titleAr: 'جنة الأطفال'
       },
