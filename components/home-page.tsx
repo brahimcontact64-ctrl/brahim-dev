@@ -498,7 +498,7 @@ export function HomePage() {
             </div>
             <div className="flex items-center">
               <Mail className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
-              contact@brahim.dev
+              brahimcontact64@gmail.com
             </div>
           </div>
         </div>
@@ -522,7 +522,7 @@ export function HomePage() {
             </div>
             <div className="flex items-center">
               <Mail className={`w-4 h-4 ${isRTL ? 'ml-2' : 'mr-2'}`} />
-              <span>contact@brahim.dev</span>
+              <span>brahimcontact64@gmail.com</span>
             </div>
           </div>
 
