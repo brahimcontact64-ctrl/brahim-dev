@@ -8,6 +8,8 @@ type LocaleLayoutProps = {
   params: Promise<{ locale: string }>;
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function LocaleLayout({
   children,
   params,

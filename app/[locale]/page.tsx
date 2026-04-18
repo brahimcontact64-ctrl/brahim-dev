@@ -6,16 +6,7 @@ type LocalePageProps = {
   params: Promise<{ locale: string }>;
 };
 
-export function generateStaticParams() {
-  return [
-    { locale: 'fr' },
-    { locale: 'ar' },
-    { locale: 'en' },
-    { locale: 'de' },
-  ];
-}
-
-export const dynamicParams = false;
+export const dynamic = 'force-dynamic';
 
 export default async function LocalePage({ params }: LocalePageProps) {
   const { locale } = await params;
