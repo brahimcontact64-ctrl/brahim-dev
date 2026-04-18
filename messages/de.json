@@ -1,9 +1,9 @@
 {
   "Metadata": {
     "title": "Brahim.dev – Web- und App-Entwicklung",
-    "description": "Professionelle Web- und Mobile-Entwicklung mit modernem Design, starker Performance und mehrsprachiger Unterstützung. Bauen Sie Ihre digitale Präsenz mit Brahim.dev auf.",
+    "description": "Full-Stack-Produktentwicklung für Web und Mobile: modernes UX-Design, starke Performance und mehrsprachige Umsetzung für Teams mit klaren Wachstumszielen.",
     "openGraphTitle": "Brahim.dev – Web- und App-Entwicklung",
-    "openGraphDescription": "Professionelle Websites, Landingpages, E-Commerce-Shops und mobile Apps mit modernem UI und starker Performance.",
+    "openGraphDescription": "Ich konzipiere und entwickle produktionsreife Websites, SaaS-Plattformen, Mobile Apps und Business-Systeme mit Premium-Anspruch.",
     "openGraphImageAlt": "Brahim.dev Portfolio",
     "keywords": [
       "Webentwicklung",
@@ -28,178 +28,182 @@
     },
     "hero": {
       "badge": "Full-Stack Produktentwickler",
-      "title": "Ich baue vollständige digitale Produkte",
-      "subtitle": "Web · Mobile · Admin · Mehrsprachig",
-      "description": "Von der Idee zum produktionsreifen Produkt — modernes Design, maximale Performance und vollständige mehrsprachige Unterstützung FR/AR/EN/DE.",
+      "title": "Ich entwickle digitale Produkte, die wirklich genutzt werden",
+      "subtitle": "SaaS · Marktplätze · Mobile Apps · Admin-Systeme",
+      "description": "Von der Strategie bis zum Launch liefere ich komplette Produkte mit klarer Architektur, starkem Design und Mehrsprachigkeit in FR/AR/EN/DE.",
       "ctaPrimary": "Projekt starten",
       "ctaSecondary": "Projekte ansehen"
     },
     "stats": {
       "projectsCompleted": "Abgeschlossene Projekte",
       "satisfiedClients": "Zufriedene Kunden",
-      "availableSupport": "Support Verfügbar",
-      "supportedLanguages": "Sprachen (FR/AR/EN/DE)"
+      "availableSupport": "Laufender Support",
+      "supportedLanguages": "Arbeitssprachen (FR/AR/EN/DE)"
     },
     "why": {
-      "title": "Warum Brahim.dev wählen?",
-      "subtitle": "Exzellenz und Innovation in Ihrem Dienst",
+      "title": "Warum Brahim.dev?",
+      "subtitle": "Technische Exzellenz mit klarem Business-Fokus",
       "items": {
         "performance": {
           "title": "Performance",
-          "description": "Ultraschnelle Websites, optimiert für ein außergewöhnliches Nutzererlebnis"
+          "description": "Schnelle, stabile Produkte für echte Nutzer und reale Last"
         },
         "design": {
           "title": "Premium-Design",
-          "description": "Moderne und elegante Oberflächen, die Ihre Besucher begeistern"
+          "description": "Klar gestaltete Interfaces, die Vertrauen schaffen und Conversion fördern"
         },
         "security": {
           "title": "Sicherheit",
-          "description": "Umfassender Schutz für Ihre Daten und Ihre Kunden"
+          "description": "Saubere Sicherheitsstandards, robuste Infrastruktur und verlässliche Deployments"
         },
         "support": {
           "title": "Persönlicher Support",
-          "description": "Persönliche Begleitung auf Französisch, Arabisch, Englisch und Deutsch"
+          "description": "Verbindliche Betreuung auf Französisch, Arabisch, Englisch und Deutsch"
         }
       }
     },
     "themes": {
-      "title": "Unsere professionellen Themes",
-      "subtitle": "Entdecken Sie unsere Kollektion einsatzbereiter Themes",
-      "preview": "Theme Ansehen",
+      "title": "Professionelle Themes für den schnellen Launch",
+      "subtitle": "Hochwertige Vorlagen, mit denen Ihr Projekt schneller live geht",
+      "preview": "Theme ansehen",
       "themesCount": "Themes",
-      "readyMadeDescription": "Professionelles einsatzbereites Theme mit mehrsprachiger Unterstützung für FR/AR/EN/DE",
+      "readyMadeDescription": "Ein professionelles, sofort einsetzbares Theme mit Mehrsprachigkeit für FR/AR/EN/DE",
       "categories": {
         "business": {
           "title": "🏢 Business & Unternehmen",
           "items": {
             "business-1": "Tech Business Pro",
-            "business-2": "Modern Tech Agency",
+            "business-2": "Moderne Tech-Agentur",
             "business-3": "Corporate Solution",
-            "business-4": "Business Theme Classic",
-            "business-5": "Professional Services",
-            "business-6": "Enterprise Platform"
+            "business-4": "Business Klassik",
+            "business-5": "Professionelle Dienstleistungen",
+            "business-6": "Enterprise-Plattform"
           }
         },
         "kids": {
           "title": "🎈 Kinder-Themes",
           "items": {
-            "kids-1": "Kids Paradise",
-            "kids-2": "Children Center",
+            "kids-1": "Kinderparadies",
+            "kids-2": "Kinderzentrum",
             "kids-3": "Kids Zone"
           }
         },
         "decoration": {
           "title": "🏠 Dekoration & Zuhause",
           "items": {
-            "deco-1": "Elegant Decor",
+            "deco-1": "Elegantes Wohnen",
             "deco-2": "Home Interior",
-            "deco-3": "Modern Living"
+            "deco-3": "Modernes Wohnen"
           }
         }
       }
     },
     "services": {
       "title": "Unsere Leistungen",
-      "subtitle": "Komplette Lösungen für Ihren digitalen Erfolg",
+      "subtitle": "Ganzheitliche Produktentwicklung für ambitionierte Unternehmen",
       "items": {
         "web": {
           "title": "Webentwicklung",
-          "description": "Professionelle Websites, Landingpages und individuelle Webanwendungen mit responsivem Design und starker Performance"
+          "description": "Websites, Landingpages und individuelle Web-Apps mit Fokus auf Performance, SEO und Conversion"
         },
         "mobile": {
           "title": "Mobile Apps",
-          "description": "Native oder plattformübergreifende iOS- und Android-Apps für ein außergewöhnliches mobiles Erlebnis"
+          "description": "Native und plattformübergreifende iOS/Android-Apps für ein nahtloses mobiles Nutzererlebnis"
         },
         "ecommerce": {
           "title": "E-Commerce",
-          "description": "Komplette Online-Shops mit sicheren Zahlungen, Bestandsverwaltung und Logistik-Integration"
+          "description": "Skalierbare Online-Shops mit sicherem Checkout, Warenwirtschaft und operativen Integrationen"
         },
         "business": {
           "title": "Business-Systeme",
-          "description": "Individuelle Verwaltungslösungen, CRM, ERP und Automatisierungssysteme für Ihr Unternehmen"
+          "description": "CRM, ERP, Dashboards und interne Tools, die Prozesse vereinfachen und Wachstum ermöglichen"
         }
       }
     },
     "whatsapp": {
-      "title": "Bereit, Ihr Projekt zu starten?",
-      "subtitle": "Lassen Sie uns jetzt über Ihr Projekt sprechen",
-      "cta": "Auf WhatsApp schreiben"
+      "title": "Bereit für Ihr nächstes Projekt?",
+      "subtitle": "Schreiben Sie mir und erhalten Sie einen klaren Umsetzungsplan",
+      "cta": "Auf WhatsApp schreiben",
+      "tooltip": "Jetzt kontaktieren",
+      "directCta": "Kontaktieren Sie mich direkt per WhatsApp",
+      "phoneLabel": "Telefon",
+      "whatsappLabel": "WhatsApp"
     },
     "projects": {
       "title": "Ausgewählte Projekte",
-      "subtitle": "Echte Produkte, ausgeliefert, in Produktion",
+      "subtitle": "Echte Produkte, live und im täglichen Einsatz",
       "liveBtn": "Live ansehen",
       "googlePlay": "Google Play",
       "saheat": {
         "title": "SahEat",
         "category": "Marketplace & Mobile",
-        "description": "Food & Delivery Marketplace mit Kunden-App, Händler-App und vollständigem Admin-Dashboard. Live auf Google Play.",
+        "description": "Ein Food-Delivery-Marktplatz mit Kunden-App, Händler-App und vollständigem Admin-Backoffice. Verfügbar auf Google Play.",
         "btn": "Auf Google Play ansehen"
       },
       "evizza": {
         "title": "e-Vizza",
         "category": "SaaS & Künstliche Intelligenz",
-        "description": "KI-gestützte SaaS-Plattform zur Automatisierung von Visaanträgen — mit Admin-Panel und intelligenten Workflows.",
+        "description": "KI-gestützte SaaS-Plattform zur Automatisierung von Visa-Prozessen mit Admin-Panel und intelligenten Abläufen.",
         "btn": "Live ansehen"
       },
       "eleman": {
         "title": "Eleman Shoes",
         "category": "E-Commerce & Business-System",
-        "description": "Vollständige E-Commerce-Plattform für eine Schuhmarke — Lagerverwaltung, Bestellungen, Kunden und Analyse-Dashboard.",
+        "description": "Eine vollständige Commerce-Plattform für eine Schuhmarke inklusive Lager, Bestellungen, Kundenverwaltung und Analytics.",
         "btn": "Shop besuchen"
       },
       "dzenix": {
         "title": "Dzenix",
         "category": "Agentur & Branding",
-        "description": "Offizielle Website der Digital-Agentur Dzenix — modernes Branding, starkes Design und professionelle Präsentation.",
+        "description": "Die offizielle Website der Agentur Dzenix mit prägnantem Branding und professioneller Markenpräsentation.",
         "btn": "Live ansehen"
       }
     },
     "differentiators": {
       "title": "Was mich unterscheidet",
-      "subtitle": "Nicht nur Code — vollständige Systeme, produktionsbereit",
+      "subtitle": "Ich liefere komplette Systeme statt einzelner Features",
       "items": {
         "fullstack": {
-          "title": "Full-Stack von Anfang bis Ende",
-          "description": "Web, Mobile, Admin-Dashboard — ich liefere komplette Produkte, keine Einzelteile."
+          "title": "End-to-End Full-Stack",
+          "description": "Frontend, Backend, Mobile und Admin greifen bei mir als ein durchdachtes Produkt ineinander."
         },
         "multilingual": {
           "title": "Nativ mehrsprachig",
-          "description": "FR/AR/EN/DE mit RTL-Unterstützung — Ihre Kunden weltweit werden bedient."
+          "description": "FR/AR/EN/DE inklusive RTL-Support für internationale Reichweite ohne Reibung."
         },
         "production": {
           "title": "Produktionsbereit",
-          "description": "Jedes Projekt wird deployed, gesichert, getestet und gewartet — keine Demo."
+          "description": "Jede Umsetzung ist deploybar, abgesichert, getestet und auf den Live-Betrieb ausgelegt."
         },
         "ai": {
           "title": "KI-Integration",
-          "description": "Workflow-Automatisierung, Content-Generierung und intelligente Funktionen nach Bedarf."
+          "description": "Sinnvolle KI-Funktionen, Automatisierung und intelligente Assistenten passend zu Ihrem Business."
         }
       }
     },
     "testimonials": {
       "title": "Was meine Kunden sagen",
-      "subtitle": "Erfahrungsberichte zufriedener Kunden",
+      "subtitle": "Vertrauen von Gründern und operativen Teams",
       "items": {
         "t1": {
           "name": "Ahmed B.",
           "role": "Gründer, SahEat",
-          "text": "Brahim hat eine vollständige Marketplace-Plattform geliefert — Kunden-App, Händler-App, Admin-Dashboard — pünktlich und fehlerfrei. Sehr professionell."
+          "text": "Brahim hat ein komplettes Marketplace-Ökosystem geliefert, von den Apps bis zum Admin-Dashboard, termintreu und in sehr hoher Qualität."
         },
         "t2": {
           "name": "Meriem K.",
           "role": "CEO, e-Vizza",
-          "text": "Dank Brahim ist unser Visa-Management-SaaS jetzt KI-gesteuert und automatisiert. Beeindruckende Ergebnisse und perfekte Kommunikation."
+          "text": "Unser Visa-SaaS ist dank Brahim heute KI-gestützt und deutlich effizienter. Kommunikation und Umsetzung waren durchgehend professionell."
         },
         "t3": {
           "name": "Carlos L.",
           "role": "Eleman Shoes",
-          "text": "Unser Online-Shop ist jetzt ultraschnell, mehrsprachig und sehr einfach zu verwalten. Ich empfehle ihn zu 100%."
+          "text": "Unser Shop ist jetzt schneller, leichter zu steuern und bereit für mehrsprachiges Wachstum. Klare Empfehlung."
         }
       }
     },
     "footer": {
-      "tagline": "Ihr digitaler Partner",
+      "tagline": "Ihr Partner für digitale Produkte",
       "copyright": "© 2024 Brahim.dev — Alle Rechte vorbehalten"
     }
   }

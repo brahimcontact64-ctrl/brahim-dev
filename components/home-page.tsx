@@ -218,36 +218,36 @@ export function HomePage() {
           </div>
 
           {/* Featured Projects — inline within hero background */}
-          <div id="projects" className="mt-20">
-            <div className="text-center mb-12">
+          <div id="projects" className="mt-16 sm:mt-20">
+            <div className="text-center mb-10 sm:mb-12">
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
                 {t('projects.title')}
               </h2>
-              <p className="text-lg text-gray-600">
+              <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto px-1">
                 {t('projects.subtitle')}
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-8">
               {projectItems.map((project) => (
-                <div key={project.id} className="bg-white rounded-3xl border-2 border-gray-200 hover:border-[#F15A24] shadow-lg hover:shadow-2xl transition-all p-8 flex flex-col">
-                  <div className="flex items-start justify-between mb-4">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#FFF1EB] text-[#F15A24] text-xs font-bold">
+                <div key={project.id} className="bg-white rounded-3xl border-2 border-gray-200 hover:border-[#F15A24] shadow-lg hover:shadow-2xl transition-all p-5 sm:p-8 flex flex-col min-w-0">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mb-4">
+                    <span className="inline-flex max-w-full items-center px-3 py-1 rounded-full bg-[#FFF1EB] text-[#F15A24] text-xs font-bold leading-relaxed break-words">
                       {t(`projects.${project.id}.category`)}
                     </span>
-                    <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">{project.highlight}</span>
+                    <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide break-words">{project.highlight}</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3">{t(`projects.${project.id}.title`)}</h3>
-                  <p className="text-gray-600 leading-relaxed mb-6 flex-1">{t(`projects.${project.id}.description`)}</p>
-                  <div className="flex flex-wrap gap-2 mb-6">
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 leading-tight break-words">{t(`projects.${project.id}.title`)}</h3>
+                  <p className="text-gray-600 leading-relaxed break-words mb-6 flex-1">{t(`projects.${project.id}.description`)}</p>
+                  <div className="flex flex-wrap gap-2 mb-6 min-w-0">
                     {project.tags.map((tag) => (
-                      <span key={tag} className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-lg">{tag}</span>
+                      <span key={tag} className="max-w-full px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-lg break-words leading-relaxed">{tag}</span>
                     ))}
                   </div>
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center w-full px-6 py-3 rounded-xl bg-[#F15A24] text-white font-semibold hover:bg-[#d94e1f] transition shadow-md hover:shadow-lg"
+                    className="inline-flex items-center justify-center w-full min-h-[48px] px-6 py-3 rounded-xl bg-[#F15A24] text-white font-semibold text-center hover:bg-[#d94e1f] transition shadow-md hover:shadow-lg"
                   >
                     <ExternalLink className={`w-4 h-4 ${isRTL ? 'ml-2' : 'mr-2'}`} />
                     {t(`projects.${project.btnKey}`)}
@@ -257,7 +257,7 @@ export function HomePage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 sm:gap-8 mt-16 sm:mt-20 max-w-4xl mx-auto">
             {stats.map((stat) => (
               <div key={stat.number} className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-[#F15A24] mb-2">{stat.number}</div>
@@ -268,13 +268,13 @@ export function HomePage() {
         </div>
       </section>
 
-      <section id="themes" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-orange-50">
+      <section id="themes" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-orange-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
               {t('themes.title')}
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto px-1">
               {t('themes.subtitle')}
             </p>
           </div>
@@ -363,13 +363,13 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
               {t('why.title')}
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto px-1">
               {t('why.subtitle')}
             </p>
           </div>
@@ -389,13 +389,13 @@ export function HomePage() {
       </section>
 
       {/* Differentiators Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 to-[#1a0a00]">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 to-[#1a0a00]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
               {t('differentiators.title')}
             </h2>
-            <p className="text-lg text-gray-400">
+            <p className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-3xl mx-auto px-1">
               {t('differentiators.subtitle')}
             </p>
           </div>
@@ -413,13 +413,13 @@ export function HomePage() {
         </div>
       </section>
 
-      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="services" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
               {t('services.title')}
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto px-1">
               {t('services.subtitle')}
             </p>
           </div>
@@ -439,13 +439,13 @@ export function HomePage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
               {t('testimonials.title')}
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto px-1">
               {t('testimonials.subtitle')}
             </p>
           </div>
@@ -468,7 +468,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-white">
+      <section id="contact" className="pt-16 pb-28 sm:pt-20 sm:pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
           <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
             <MessageCircle className="w-10 h-10 text-white" />
@@ -477,28 +477,36 @@ export function HomePage() {
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
             {t('whatsapp.title')}
           </h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-6 sm:mb-8 px-1">
             {t('whatsapp.subtitle')}
+          </p>
+
+          <p className="text-sm sm:text-base font-medium text-green-700 mb-5 sm:mb-6">
+            {t('whatsapp.directCta')}
           </p>
 
           <a
             href="https://wa.me/436602313221"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-4 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition shadow-lg shadow-green-200"
+            className="inline-flex items-center justify-center w-full sm:w-auto min-h-[48px] px-8 py-4 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition shadow-lg shadow-green-200"
           >
             <MessageCircle className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
             {t('whatsapp.cta')}
           </a>
 
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6 text-gray-600">
-            <div className="flex items-center">
+          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-gray-600 text-sm sm:text-base">
+            <div className="flex items-center break-words text-center sm:text-left">
               <Phone className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
-              +43 660 2313 221
+              <span>{t('whatsapp.phoneLabel')}: +213 550 47 52 48</span>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center break-words text-center sm:text-left">
+              <MessageCircle className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
+              <span>{t('whatsapp.whatsappLabel')}: +43 660 231 3221</span>
+            </div>
+            <div className="flex items-center break-all text-center sm:text-left">
               <Mail className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
-              brahimcontact64@gmail.com
+              <span>brahimcontact64@gmail.com</span>
             </div>
           </div>
         </div>
@@ -534,14 +542,14 @@ export function HomePage() {
         href="https://wa.me/436602313221"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with me on WhatsApp"
-        title="Chat with me"
-        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 group"
+        aria-label={t('whatsapp.tooltip')}
+        title={t('whatsapp.tooltip')}
+        className="fixed bottom-[calc(env(safe-area-inset-bottom)+1rem)] right-4 sm:bottom-[calc(env(safe-area-inset-bottom)+1.5rem)] sm:right-6 z-50 group"
       >
         <span className="pointer-events-none absolute -top-10 right-0 whitespace-nowrap rounded-lg bg-[#0f0f0f] px-3 py-1.5 text-xs font-medium text-white opacity-0 shadow-md transition-opacity duration-300 group-hover:opacity-100 hidden sm:block">
-          Chat with me
+          {t('whatsapp.tooltip')}
         </span>
-        <span className="inline-flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg shadow-green-300/40 transition-all duration-300 hover:scale-105 hover:bg-green-600 hover:shadow-xl hover:shadow-green-300/50">
+        <span className="inline-flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg shadow-green-300/40 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 hover:bg-green-600 hover:shadow-xl hover:shadow-green-300/50">
           <MessageCircle className="h-6 w-6 sm:h-7 sm:w-7" />
         </span>
       </a>
