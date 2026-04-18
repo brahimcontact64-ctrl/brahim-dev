@@ -1,0 +1,205 @@
+{
+  "Metadata": {
+    "title": "Brahim.dev – Web & App Development",
+    "description": "Développement web et mobile professionnel. Design moderne, haute performance et accompagnement multilingue. Construisez votre présence en ligne avec Brahim.dev.",
+    "openGraphTitle": "Brahim.dev – Développement Web & App",
+    "openGraphDescription": "Sites professionnels, landing pages, e-commerce et applications mobiles avec un design moderne et une performance élevée.",
+    "openGraphImageAlt": "Portfolio Brahim.dev",
+    "keywords": [
+      "développement web",
+      "applications mobiles",
+      "développeur freelance",
+      "React",
+      "Next.js",
+      "landing page",
+      "site web algérie",
+      "brahim dev"
+    ]
+  },
+  "Common": {
+    "languageSwitcherLabel": "Choisir la langue"
+  },
+  "HomePage": {
+    "nav": {
+      "services": "Services",
+      "themes": "Thèmes",
+      "contact": "Contact"
+    },
+    "hero": {
+      "badge": "Solutions Web Professionnelles",
+      "title": "Créez Votre Présence Digitale",
+      "subtitle": "Web & App Development FR/AR/EN/DE",
+      "description": "Solutions professionnelles sur mesure pour votre présence en ligne. Design moderne, performance optimale et support multilingue complet.",
+      "ctaPrimary": "Commencer Maintenant",
+      "ctaSecondary": "Voir les Thèmes"
+    },
+    "stats": {
+      "projectsCompleted": "Projets Réalisés",
+      "satisfiedClients": "Clients Satisfaits",
+      "availableSupport": "Support Disponible",
+      "supportedLanguages": "Langues (FR/AR/EN/DE)"
+    },
+    "why": {
+      "title": "Pourquoi Choisir Brahim.dev ?",
+      "subtitle": "Excellence et Innovation à Votre Service",
+      "items": {
+        "performance": {
+          "title": "Performance",
+          "description": "Sites ultra-rapides optimisés pour une expérience utilisateur exceptionnelle"
+        },
+        "design": {
+          "title": "Design Premium",
+          "description": "Interface moderne et élégante qui captive vos visiteurs"
+        },
+        "security": {
+          "title": "Sécurité",
+          "description": "Protection complète de vos données et de vos clients"
+        },
+        "support": {
+          "title": "Support Dédié",
+          "description": "Accompagnement personnalisé en français, arabe, anglais et allemand"
+        }
+      }
+    },
+    "themes": {
+      "title": "Nos Thèmes Professionnels",
+      "subtitle": "Découvrez notre collection de thèmes prêts à l'emploi",
+      "preview": "Voir le Thème",
+      "themesCount": "thèmes",
+      "readyMadeDescription": "Thème professionnel prêt à l'emploi avec support multilingue FR/AR/EN/DE",
+      "categories": {
+        "business": {
+          "title": "🏢 Business & Corporate",
+          "items": {
+            "business-1": "Tech Business Pro",
+            "business-2": "Modern Tech Agency",
+            "business-3": "Corporate Solution",
+            "business-4": "Business Theme Classic",
+            "business-5": "Professional Services",
+            "business-6": "Enterprise Platform"
+          }
+        },
+        "kids": {
+          "title": "🎈 Kids Themes",
+          "items": {
+            "kids-1": "Kids Paradise",
+            "kids-2": "Children Center",
+            "kids-3": "Kids Zone"
+          }
+        },
+        "decoration": {
+          "title": "🏠 Decoration & Home",
+          "items": {
+            "deco-1": "Elegant Decor",
+            "deco-2": "Home Interior",
+            "deco-3": "Modern Living"
+          }
+        }
+      }
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Solutions Complètes pour Votre Succès Digital",
+      "items": {
+        "web": {
+          "title": "Développement Web",
+          "description": "Sites web professionnels, landing pages et applications web sur mesure avec design responsive et performance optimale"
+        },
+        "mobile": {
+          "title": "Applications Mobile",
+          "description": "Applications iOS et Android natives ou cross-platform pour une expérience mobile exceptionnelle"
+        },
+        "ecommerce": {
+          "title": "E-commerce",
+          "description": "Boutiques en ligne complètes avec paiement sécurisé, gestion de stock et intégration logistique"
+        },
+        "business": {
+          "title": "Systèmes Business",
+          "description": "Solutions de gestion personnalisées, CRM, ERP et systèmes d'automatisation pour votre entreprise"
+        }
+      }
+    },
+    "whatsapp": {
+      "title": "Prêt à Démarrer Votre Projet ?",
+      "subtitle": "Discutons de votre projet dès maintenant",
+      "cta": "Chat sur WhatsApp"
+    },
+    "projects": {
+      "title": "Projets Réalisés",
+      "subtitle": "Des produits réels, livrés, utilisés en production",
+      "liveBtn": "Voir en direct",
+      "googlePlay": "Google Play",
+      "saheat": {
+        "title": "SahEat",
+        "category": "Marketplace & Mobile",
+        "description": "Marketplace food & delivery avec app mobile client, app vendeur et tableau de bord admin complet. Déployé sur Google Play.",
+        "btn": "Voir sur Google Play"
+      },
+      "evizza": {
+        "title": "e-Vizza",
+        "category": "SaaS & Intelligence Artificielle",
+        "description": "Plateforme SaaS d'automatisation des demandes de visa avec IA intégrée, panel admin et workflows intelligents.",
+        "btn": "Voir en direct"
+      },
+      "eleman": {
+        "title": "Eleman Shoes",
+        "category": "E-commerce & Business System",
+        "description": "E-commerce complet pour une marque de chaussures — gestion de stock, commandes, clients et dashboard analytique.",
+        "btn": "Visiter la boutique"
+      },
+      "dzenix": {
+        "title": "Dzenix",
+        "category": "Agence & Branding",
+        "description": "Site officiel de l'agence digitale Dzenix — branding moderne, design impactant et présentation professionnelle.",
+        "btn": "Voir en direct"
+      }
+    },
+    "differentiators": {
+      "title": "Ce qui me différencie",
+      "subtitle": "Pas juste du code — des systèmes complets prêts pour la production",
+      "items": {
+        "fullstack": {
+          "title": "Full-Stack de bout en bout",
+          "description": "Web, mobile, admin dashboard — je livre des produits complets, pas des morceaux."
+        },
+        "multilingual": {
+          "title": "Multi-langues natif",
+          "description": "FR/AR/EN/DE avec support RTL — vos clients partout dans le monde sont servis."
+        },
+        "production": {
+          "title": "Prêt pour la production",
+          "description": "Chaque projet est déployé, sécurisé, testé et maintenu — pas juste une démo."
+        },
+        "ai": {
+          "title": "Intégration IA",
+          "description": "Workflow automation, génération de contenu et fonctionnalités intelligentes selon vos besoins."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Ce que disent mes clients",
+      "subtitle": "Retours d'expérience de clients satisfaits",
+      "items": {
+        "t1": {
+          "name": "Ahmed B.",
+          "role": "Fondateur, SahEat",
+          "text": "Brahim a livré une plateforme marketplace complète — app client, app vendeur, dashboard admin — dans les délais et sans bugs. Très professionnel."
+        },
+        "t2": {
+          "name": "Meriem K.",
+          "role": "CEO, e-Vizza",
+          "text": "Grâce à Brahim, notre SaaS de gestion de visa est automatisé avec l'IA. Résultat impressionnant et communication parfaite."
+        },
+        "t3": {
+          "name": "Carlos L.",
+          "role": "Eleman Shoes",
+          "text": "Notre boutique e-commerce est maintenant ultra-rapide, multilingue et très facile à gérer. Je recommande à 100%."
+        }
+      }
+    },
+    "footer": {
+      "tagline": "Votre partenaire digital",
+      "copyright": "© 2024 Brahim.dev — Tous droits réservés"
+    }
+  }
+}
