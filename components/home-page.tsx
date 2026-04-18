@@ -524,14 +524,22 @@ export function HomePage() {
           <p className="text-sm text-[#999]">{t('footer.tagline')}</p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm">
-            <div className="flex items-center">
+            <a
+              href="tel:+213550475248"
+              className="inline-flex items-center text-[#bbb] hover:text-white transition-colors"
+            >
               <Phone className={`w-4 h-4 ${isRTL ? 'ml-2' : 'mr-2'}`} />
-              <span>+43 660 2313 221</span>
-            </div>
-            <div className="flex items-center">
-              <Mail className={`w-4 h-4 ${isRTL ? 'ml-2' : 'mr-2'}`} />
-              <span>brahimcontact64@gmail.com</span>
-            </div>
+              <span>{t('whatsapp.phoneLabel')}: +213 550 47 52 48</span>
+            </a>
+            <a
+              href="https://wa.me/436602313221"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-[#bbb] hover:text-white transition-colors"
+            >
+              <MessageCircle className={`w-4 h-4 ${isRTL ? 'ml-2' : 'mr-2'}`} />
+              <span>{t('whatsapp.whatsappLabel')}: +43 660 231 3221</span>
+            </a>
           </div>
 
           <p className="text-xs text-[#666] pt-4">{t('footer.copyright')}</p>
